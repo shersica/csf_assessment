@@ -31,3 +31,7 @@ export interface Order {
   cart: Cart
 }
 
+export interface ProductSlice {
+  loadedOn: number
+  products: Product[]
+}
